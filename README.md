@@ -1,5 +1,4 @@
 <h1 align="center">
-    <img alt="Logo" title="Logo" src="https://github.com/sjtorres/TelaLoginAnimada/blob/master/assets/icon.png" width="150px" />
     <img alt="SandroTorres" title="#LoginAnimado" src="https://github.com/sjtorres/TelaLoginAnimada/blob/master/assets/logo.png" width="300px" />
 </h1>
 
