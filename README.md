@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="SandroTorres" title="#LoginAnimado" src="https://github.com/sjtorres/Omnistack-11/blob/master/frontend/src/assets/logo.svg" width="226px" />
+    <img alt="SandroTorres" title="#LoginAnimado" src="https://github.com/sjtorres/TelaLoginAnimada/blob/master/assets/logo.png" width="226px" />
 </h1>
 
 <h4 align="center"> 
@@ -23,17 +23,14 @@
 
 ## 🚀 Tecnologias
 
-O Be The Hero é um projeto que visa conectar pessoas dispostas a ajudar ONGs.
+Tela de login com animações criada com React Native e Expo.
 
-- :heavy_check_mark: [Node.js](https://nodejs.org/en/) 
-- :heavy_check_mark: [Express](http://expressjs.com/) 
-- :heavy_check_mark: [ReactJS](https://reactjs.org) 
 - :heavy_check_mark: [React Native](https://facebook.github.io/react-native/) 
 - :heavy_check_mark: [Expo](https://expo.io/) 
 
 ## 💻 Projeto
 
-Be the Hero é um projeto que visa ajudar, de maneira financeira (Ongs) Instituições de caridade, ajudando a mesma se manter.
+Tela de login animada é um projeto que visa ajudar, de maneira financeira (Ongs) Instituições de caridade, ajudando a mesma se manter.
 
 <h1 align="center">
     <img alt="Login-Page" title="Login-Page" src="https://github.com/sjtorres/Omnistack-11/blob/master/img/Mockup-Dispositivos-02.png" width="500px" />
