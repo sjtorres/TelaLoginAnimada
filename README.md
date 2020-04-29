@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="SandroTorres" title="#LoginAnimado" src="https://github.com/sjtorres/TelaLoginAnimada/blob/master/assets/logo.png" width="226px" />
+    <img alt="SandroTorres" title="#LoginAnimado" src="https://github.com/sjtorres/TelaLoginAnimada/blob/master/assets/logo.png" width="300px" />
 </h1>
 
 <h4 align="center"> 
@@ -30,12 +30,12 @@ Tela de login com animações criada com React Native e Expo.
 
 ## 💻 Projeto
 
-Tela de login animada é um projeto que visa ajudar, de maneira financeira (Ongs) Instituições de caridade, ajudando a mesma se manter.
+Tela de login animada é um projeto Front-End criado com o framework react-native com expo.
 
 <h1 align="center">
-    <img alt="Logo" title="Logo" src="https://github.com/sjtorres/TelaLoginAnimada/blob/master/assets/icon.png" width="150px" />
-    <img margin="15px" alt="TelaInicial" title="TelaInicial" src="https://github.com/sjtorres/TelaLoginAnimada/blob/master/assets/Tela-01.png" width="150px" />
-    <img margin="15px" alt="TelaAnimada" title="TelaAnimada" src="https://github.com/sjtorres/TelaLoginAnimada/blob/master/assets/Tela-02.png" width="150px" />
+    <img margin-bottom="50px" alt="Logo" title="Logo" src="https://github.com/sjtorres/TelaLoginAnimada/blob/master/assets/icon.png" width="150px" />
+    <img margin="35px" alt="TelaInicial" title="TelaInicial" src="https://github.com/sjtorres/TelaLoginAnimada/blob/master/assets/Tela-01.png" width="150px" />
+    <img margin="35px" alt="TelaAnimada" title="TelaAnimada" src="https://github.com/sjtorres/TelaLoginAnimada/blob/master/assets/Tela-02.png" width="150px" />
 </h1>
 
 ## 🔖 Como usar
@@ -47,22 +47,16 @@ Para clonar e executar este aplicativo, você precisará do [Git](https://git-sc
 Na sua linha de comando:
 ```bash
 # Clone este repositório
-$ git clone https://github.com/sjtorres/Omnistack-11
+$ git clone https://github.com/sjtorres/TelaLoginAnimada
 
 # Vá para o repositório 
-$ cd Omnistack-11/backend
+$ cd TelaLoginAnimada
 
 # Instalar dependências
 $ yarn install
 
-# Executar Migrates
-$ yarn knex migrate:latest 
-
-# Executar Seeds
-$ yarn seed
-
-# Executar a API
-$ yarn dev
+# Executar
+$ expo start
 ```
 
 ## 🤔 Contribuir
@@ -78,5 +72,5 @@ Este projeto está sob a licença MIT. Consulte o [LICENSE] para obter detalhes.
 
 ---
 
-Feito com ♥ por Sandro Torres na semana OmniStack-11 :wave: [Entre em Contato!](https://www.sandrotorres.com.br)
+Feito com ♥ por Sandro Torres com [Sujeito Programador](https://sujeitoprogramador.com/) :wave: [Entre em Contato!](https://www.sandrotorres.com.br)
 
