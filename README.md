@@ -34,7 +34,8 @@ Tela de login animada é um projeto que visa ajudar, de maneira financeira (Ongs
 
 <h1 align="center">
     <img alt="Logo" title="Logo" src="https://github.com/sjtorres/TelaLoginAnimada/blob/master/assets/icon.png" width="150px" />
-    <img alt="Login-Page" title="Login-Page" src="https://github.com/sjtorres/Omnistack-11/blob/master/img/Mockup-Dispositivos-02.png" width="500px" />
+    <img margin="15px" alt="TelaInicial" title="TelaInicial" src="https://github.com/sjtorres/TelaLoginAnimada/blob/master/assets/Tela-01.png" width="150px" />
+    <img margin="15px" alt="TelaAnimada" title="TelaAnimada" src="https://github.com/sjtorres/TelaLoginAnimada/blob/master/assets/Tela-02.png" width="150px" />
 </h1>
 
 ## 🔖 Como usar
