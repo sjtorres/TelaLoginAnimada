@@ -7,15 +7,20 @@ import {
 	Image, 
 	TextInput,
 	TouchableOpacity,
-	Animated
+	Animated,
+	Keyboard
 } from 'react-native';
 
 export default function App() {
 
 		const [offset] = useState(new Animated.ValueXY({ x: 0, y: 95 })) 
 		const [opacity] = useState(new Animated.Value(0))
+		const [logo] = useState(new Animated.ValueXY({ x: 130, y: 130 }))
 
 		useEffect(() => {
+			KeyboardDidShowListener = Keyboard.addListener('keyboardDidShow', keyboardDidShow)
+			KeyboardDidHideListener = Keyboard.addListener('keyboardDidHide', keyboardDidHide)
+
 			Animated.parallel([
 				Animated.spring(offset.y, {
 					toValue: 0,
@@ -29,10 +34,43 @@ export default function App() {
 			]).start()
 		}, [])
 
+		function keyboardDidShow() {
+			Animated.parallel([
+				Animated.timing(logo.x, {
+					toValue: 80,
+					duration: 100,
+				}),
+				Animated.timing(logo.y, {
+					toValue: 80,
+					duration: 100,
+				})
+			]).start()
+		}
+
+		function keyboardDidHide() {
+			Animated.parallel([
+				Animated.timing(logo.x, {
+					toValue: 130,
+					duration: 100,
+				}),
+				Animated.timing(logo.y, {
+					toValue: 130,
+					duration: 100,
+				})
+			]).start()
+		}
+
   return (
     <KeyboardAvoidingView style={styles.background}>
 		<View style={styles.containerLogo}>
-			<Image source={require('./src/assets/logo.png')} />
+			<Animated.Image 
+				style={{ 
+					width: logo.x, 
+					height: logo.y,
+				}}
+
+				source={require('./src/assets/logo.png')} 
+			/>
 		</View>
 
 		<Animated.View 
