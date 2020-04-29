@@ -33,9 +33,9 @@ Tela de login com animações criada com React Native e Expo.
 Tela de login animada é um projeto Front-End criado com o framework react-native com expo.
 
 <h1 align="center">
-    <img margin-bottom="50px" alt="Logo" title="Logo" src="https://github.com/sjtorres/TelaLoginAnimada/blob/master/assets/icon.png" width="150px" />
-    <img margin="35px" alt="TelaInicial" title="TelaInicial" src="https://github.com/sjtorres/TelaLoginAnimada/blob/master/assets/Tela-01.png" width="150px" />
-    <img margin="35px" alt="TelaAnimada" title="TelaAnimada" src="https://github.com/sjtorres/TelaLoginAnimada/blob/master/assets/Tela-02.png" width="150px" />
+    <img alt="Logo" title="Logo" src="https://github.com/sjtorres/TelaLoginAnimada/blob/master/assets/icon.png" width="150px" />
+    <img margin-left="35px" alt="TelaInicial" title="TelaInicial" src="https://github.com/sjtorres/TelaLoginAnimada/blob/master/assets/Tela-01.png" width="250px" />
+    <img margin-left="35px" alt="TelaAnimada" title="TelaAnimada" src="https://github.com/sjtorres/TelaLoginAnimada/blob/master/assets/Tela-02.png" width="250px" />
 </h1>
 
 ## 🔖 Como usar
